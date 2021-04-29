@@ -29,15 +29,6 @@ An PyTorch Reimplementation of PointNet++
         checkpoints/pointnet2_cls_250.pth 1024
         ``` 
 
-    - **Start to train**
-        ```
-        python train_custom_cls.py --data_root your_datapath/CustomData --nclasses 2 --npoints 2048
-        ```
-    - **Start to evaluate**
-        ```
-        python evaluate_custom.py evaluate_cls pointnet2_cls_ssg your_datapath/CustomData work_dirs/checkpoints/pointnet2_cls_250.pth 2
-        ```
-
 ## Part Segmentation
 - **Start**
     - Dataset: [ShapeNet part](https://shapenet.cs.stanford.edu/iccv17/#dataset), download it from [Official Site](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip)
