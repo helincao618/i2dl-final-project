@@ -58,9 +58,6 @@ An PyTorch Reimplementation of PointNet++
         python evaluate.py evaluate_seg /root/shapenetcore_partanno_segmentation_benchmark_v0_normal \
         seg_ssg/checkpoints/pointnet2_cls_250.pth
         ```
-## Scene Segmentation
-- **Start**
-    - The scene segmentation in S3DIS and semanticKITTI is not finished but the code is also uploaded, which is annotated with 'not finished'
 	
 ## Reference
 
