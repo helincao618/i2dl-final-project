@@ -4,6 +4,7 @@ An PyTorch Reimplementation of PointNet++
 
 ### Requirements
 This implementation uses Python 3.6, Pytorch1.4.0, cudatoolkit 10.0. We recommend to use conda to deploy the environment.
+
         ```
 	conda create -n i2dl python=3.6
 	
