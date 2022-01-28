@@ -16,7 +16,6 @@ This implementation uses Python 3.6, Pytorch1.4.0, cudatoolkit 10.0. We recommen
         
 
 ## Classification
-- **Start**
     - Dataset: [ModelNet40](https://modelnet.cs.princeton.edu/), download it from [Official Site](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip)
     - Train
         ```
@@ -36,7 +35,6 @@ This implementation uses Python 3.6, Pytorch1.4.0, cudatoolkit 10.0. We recommen
         ``` 
 
 ## Part Segmentation
-- **Start**
     - Dataset: [ShapeNet part](https://shapenet.cs.stanford.edu/iccv17/#dataset), download it from [Official Site](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip)
     - Train
         ```
