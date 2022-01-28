@@ -16,15 +16,15 @@ This implementation uses Python 3.6, Pytorch1.4.0, cudatoolkit 10.0. We recommen
         
 
 ## Classification
-    - Dataset: [ModelNet40](https://modelnet.cs.princeton.edu/), download it from [Official Site](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip)
-    - Train
+Dataset: [ModelNet40](https://modelnet.cs.princeton.edu/), download it from [Official Site](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip)
+Train
         ```
         python train_clss.py --data_root your_data_root --log_dir your_log_dir
 
         eg.
         python train_clss.py --data_root ./modelnet40_normal_resampled --log_dir cls
         ```
-    - Evaluate
+Evaluate
     
         ```
         python evaluate.py evaluate_cls pointnet2_cls_ssg data_root checkpoint num_points
@@ -35,8 +35,8 @@ This implementation uses Python 3.6, Pytorch1.4.0, cudatoolkit 10.0. We recommen
         ``` 
 
 ## Part Segmentation
-    - Dataset: [ShapeNet part](https://shapenet.cs.stanford.edu/iccv17/#dataset), download it from [Official Site](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip)
-    - Train
+Dataset: [ShapeNet part](https://shapenet.cs.stanford.edu/iccv17/#dataset), download it from [Official Site](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip)
+Train
         ```
         python train_part_seg.py --data_root your_data_root --log_dir your_log_dir
 
@@ -44,7 +44,7 @@ This implementation uses Python 3.6, Pytorch1.4.0, cudatoolkit 10.0. We recommen
         python train_part_seg.py --data_root ./shapenetcore_partanno_segmentation_benchmark_v0_normal \
         --log_dir seg --batch_size 64
         ```
-    - Evaluate
+Evaluate
     
         ```
         python evaluate.py evaluate_seg data_root checkpoint
